@@ -1,0 +1,147 @@
+html,body{
+	height: 99%;
+	width: 99%;
+	background-color: rgb(255, 220, 243);
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-image: url("banner.png");
+	background-color: rgb(159,166,104,0.4);
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #e698cb;
+	border-radius: 25px;
+	box-shadow: 1px 3px 30px 1px #832122;
+	outline: 5px 5px #D9A404 ;
+	text-transform: capitalize;
+	text-shadow: .5px .5px #832122 ;
+	font-family: Garamond, serif;
+	height: 260px;
+	text-align: right;
+	
+}
+#title{
+	position: absolute;
+	font-size: 0.4em;
+	top: 60px;
+	right: 60px; 
+	padding: 2px;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow: .5px .5px #832122 ;
+	font-family: Garamond, serif;
+	
+	
+}
+
+.heart{
+	width: 220px;
+	position: absolute;
+	top: 14px;
+	right: 35px;
+}
+.border{
+	width: 400px;
+	position: absolute;
+	bottom: 300px;
+	left: 450px;
+}
+
+#logo{
+	width: 170px;
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
+.container{
+	border:2px #e698cb solid;
+	border-radius: 25px;
+	position: relative;
+	top: 2px;
+	margin: 35px;
+	padding: 50px;
+	
+	height: 825px;
+	overflow: hidden;
+	background-color: rgba(250,244,220,255);
+}
+.wave{
+	border: red 1px solid;
+	background-color: rgba(255,34,45, 0.5);
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#l1{
+	border:#D9A404 1px solid;
+	background-image:repeating-linear-gradient(red, green);
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
+.menu{
+	position: absolute;
+	top: 120px;
+	left: 545px;
+	color: #843335;
+	font-family: Georgia, serif;
+	font-size: 4em;
+	text-shadow: 2px 2px #FFBCE8;
+	width: 100px;
+	
+}
+.menu a{
+	z-index: 1;
+	position: relative;
+	width: 130px;
+	left: 40px;
+	color: #843335;
+	background-color: rgba(250,244,220,255);
+	text-shadow: 0px 0px ;
+	font-family: Garamond, serif;
+	font-size: 0.4em;
+	padding: 1px;
+	border: 1px solid #843335;
+	display: none;
+}
+.menu:hover a{
+	display: block;
+}
+.menu a:hover{
+	color: rgba(250,244,220,255);
+	background-color: #843335;
+}
+
+.left{
+	width:48%;
+	position:absolute;
+	left:5px;
+	background-color: #FFBCE8;
+	color: white;
+	border: 2px solid black ;
+	border-radius: 5%;
+	font-family:fantasy;
+	font-size: 2em;
+	text-align: center;
+}
+.right{
+	width:48%;
+	position:absolute;
+	right:5px;
+	background-color: #FFBCE8;
+	color: white;
+	border: 2px solid black ;
+	border-radius: 5%;
+	font-family: fantasy;
+	font-size: 2em;
+	text-align: center;
+}
